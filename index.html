@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Портфоліо веб-дизайнера та розробника. Сучасні сайти з унікальним дизайном під ключ.">
+  <title>Портфоліо — сучасні сайти під ключ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bg-glow bg-glow--one" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--two" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo" aria-label="На головну">
+        
+        <div class="logo_mein">
+          <img src="img/logo.png" alt="">
+        </div>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Головна навігація">
+        <a href="#hero" class="nav__link is-active">Головна</a>
+        <a href="#portfolio" class="nav__link">Портфоліо</a>
+        <a href="#about" class="nav__link">Про мене</a>
+        <a href="#pricing" class="nav__link">Ціни</a>
+        <a href="#contacts" class="nav__link">Контакти</a>
+      </nav>
+
+      <a href="#contacts" class="btn btn--sm header__cta">Зв’язатися</a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Відкрити меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <p class="eyebrow reveal">Веб-дизайн · Розробка · Під ключ</p>
+        <h1 class="hero__title reveal">Створюю сучасні сайти з унікальним дизайном.</h1>
+        <p class="hero__subtitle reveal">Професійно, креативно, під ключ.</p>
+        <div class="hero__actions reveal">
+          <a href="#portfolio" class="btn btn--primary">Переглянути портфоліо</a>
+          <a href="#contacts" class="btn btn--ghost">Зв’язатися зі мною</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Вибрані проєкти</p>
+          <h2>Портфоліо</h2>
+          <p class="section__lead">Сайти, лендінги та інтерфейси з акцентом на ясність, швидкість і характер бренду.</p>
+        </div>
+
+        <div class="filters reveal" role="tablist" aria-label="Фільтр проєктів">
+          <button class="filter is-active" type="button" data-filter="all">Всі</button>
+          <button class="filter" type="button" data-filter="sites">Сайти</button>
+          <button class="filter" type="button" data-filter="landings">Лендінги</button>
+          <button class="filter" type="button" data-filter="shops">Магазини</button>
+        </div>
+
+        <div class="portfolio-grid" id="portfolio-grid">
+          <a href="https://kmdesignlab.com" class="portfolio-card reveal" data-category="sites" target="_blank" rel="noopener noreferrer">
+            <div class="portfolio-card__media">
+              <img src="img/projeckt1.jpeg" alt="Ательє «Норд»">
+            </div>
+            <div class="portfolio-card__overlay"></div>
+            <div class="portfolio-card__body">
+              <h3>СТУДІЯ ДИЗАЙНУ</h3>
+
+              <span class="portfolio-card__link">Перейти на сайт</span>
+            </div>
+          </a>
+          
+
+          <a href="https://mocko-est2018.com/" class="portfolio-card reveal" data-category="shops" target="_blank" rel="noopener noreferrer">
+            <div class="portfolio-card__media">
+              <img src="img/project2.jpg" alt="Pulse Fit">
+            </div>
+            <div class="portfolio-card__overlay"></div>
+            <div class="portfolio-card__body">
+              <h3>УКРАЇНСЬКИЙ БРЕНД ОДЯГУ</h3>
+              
+              <span class="portfolio-card__link">Перейти на сайт</span>
+            </div>
+          </a>
+
+          <a href="https://lightset.ua" class="portfolio-card reveal" data-category="shops" target="_blank" rel="noopener noreferrer">
+            <div class="portfolio-card__media">
+              <img src="img/project3.jpg" alt="Kava Market">
+            </div>
+            <div class="portfolio-card__overlay"></div>
+            <div class="portfolio-card__body">
+              <h3>lightset</h3>
+             
+              <span class="portfolio-card__link">Перейти на сайт</span>
+            </div>
+          </a>
+
+          <a href="https://www.kokosinteriors.com/" class="portfolio-card reveal" data-category="sites" target="_blank" rel="noopener noreferrer">
+            <div class="portfolio-card__media">
+              <img src="img/project4.jpg" alt="Lex & Partners">
+            </div>
+            <div class="portfolio-card__overlay"></div>
+            <div class="portfolio-card__body">
+              <h3>ДИЗАЙН СТУДІЯ KOKOS</h3>
+             
+              <span class="portfolio-card__link">Перейти на сайт</span>
+            </div>
+          </a>
+
+          
+          <a href="https://lvinteriors.com.ua/" class="portfolio-card reveal portfolio-card--hidden" data-category="sites" target="_blank" rel="noopener noreferrer">
+            <div class="portfolio-card__media">
+              <img src="img/project5.jpg" alt="Horizon Travel">
+            </div>
+            <div class="portfolio-card__overlay"></div>
+            <div class="portfolio-card__body">
+              <h3>Студія інтер'єрів</h3>
+              
+              <span class="portfolio-card__link">Перейти на сайт</span>
+            </div>
+          </a>
+
+          
+
+
+
+          <a href="https://agni.net.ua/" class="portfolio-card reveal portfolio-card--hidden" data-category="landings" target="_blank" rel="noopener noreferrer">
+            <div class="portfolio-card__media">
+              <img src="img/project8.jpg" alt="Horizon Travel">
+            </div>
+            <div class="portfolio-card__overlay"></div>
+            <div class="portfolio-card__body">
+              <h3>ЮВЕЛІРНИЙ БРЕНД</h3>
+              
+              <span class="portfolio-card__link">Перейти на сайт</span>
+            </div>
+          </a>
+
+
+          <a href="https://szkocka.com.ua/?utm_source=chatgpt.com" class="portfolio-card reveal portfolio-card--hidden" data-category="landings" target="_blank" rel="noopener noreferrer">
+            <div class="portfolio-card__media">
+              <img src="img/project9.jpg" alt="Horizon Travel">
+            </div>
+            <div class="portfolio-card__overlay"></div>
+            <div class="portfolio-card__body">
+              <h3>szkocka</h3>
+              
+              <span class="portfolio-card__link">Перейти на сайт</span>
+            </div>
+          </a>
+
+
+          <a href="https://restaurants.emilyresort.com.ua/?utm_source=chatgpt.com" class="portfolio-card reveal portfolio-card--hidden" data-category="landings" target="_blank" rel="noopener noreferrer">
+            <div class="portfolio-card__media">
+              <img src="img/project10.jpg" alt="Horizon Travel">
+            </div>
+            <div class="portfolio-card__overlay"></div>
+            <div class="portfolio-card__body">
+              <h3>emilyresort</h3>
+              
+              <span class="portfolio-card__link">Перейти на сайт</span>
+            </div>
+          </a>
+
+          <a href="https://maryline.ua/" class="portfolio-card reveal portfolio-card--hidden" data-category="shops" target="_blank" rel="noopener noreferrer">
+            <div class="portfolio-card__media">
+              <img src="img/project7.jpg" alt="Lumen Store">
+            </div>
+            <div class="portfolio-card__overlay"></div>
+            <div class="portfolio-card__body">
+              <h3>ЖІНОЧИЙ ОДЯГ</h3>
+              
+              <span class="portfolio-card__link">Перейти на сайт</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="portfolio__actions">
+          <button class="btn btn--load-more" id="load-more-btn">Показати ще</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="about">
+      <div class="container about">
+        <div class="about__photo reveal">
+          <div class="photo-slot">
+            <img src="img/photo.jpg" alt="Фото">
+          </div>
+        </div>
+        <div class="about__content">
+          <p class="eyebrow reveal">Хто я</p>
+          <h2 class="reveal">Про мене</h2>
+          <div class="about__text reveal">
+            <p>Займаюся версткою сайтів та створенням веб-сторінок з нуля. Працюю з HTML, CSS та JavaScript. </p>
+            <p>Можу зробити лендінг, сайт-візитку або доробити вже готовий сайт. Також працюю з WordPress, маю 1 рік досвіду у створенні та доопрацюванні сайтів на цій платформі. Відповідально ставлюся до задач і завжди на звʼязку з клієнтом.</p>
+          </div>
+          <div class="skills reveal">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">UI/UX дизайн</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Пакети послуг</p>
+          <h2>Які сайти я створюю</h2>
+          <p class="section__lead">Орієнтовні ціни в гривнях. Фінальна вартість залежить від обсягу, унікального дизайну та інтеграцій.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card reveal" data-type="landing">
+            <h3>Лендінг</h3>
+            <p class="price-card__desc">Односторінковий сайт для запуску послуги, продукту чи акції.</p>
+            <p class="price"><span>від</span> 12 000 ₴</p>
+            <p class="price-card__term">Строк: 7–14 днів</p>
+            <ul>
+              <li>Унікальний дизайн</li>
+              <li>Адаптив під мобільні</li>
+              <li>Форма заявки</li>
+            </ul>
+          </article>
+
+          <article class="price-card price-card--featured reveal" data-type="corporate">
+            <p class="price-card__badge">Найпопулярніше</p>
+            <h3>Корпоративний сайт</h3>
+            <p class="price-card__desc">Багатосторінковий сайт компанії з послугами, блогом і контактами.</p>
+            <p class="price"><span>від</span> 28 000 ₴</p>
+            <p class="price-card__term">Строк: 3–5 тижнів</p>
+            <ul>
+              <li>До 8 сторінок</li>
+              <li>Адмін-панель</li>
+              <li>SEO-база</li>
+            </ul>
+          </article>
+
+          <article class="price-card reveal" data-type="store">
+            <h3>Інтернет-магазин</h3>
+            <p class="price-card__desc">Каталог, кошик, оплата та облік замовлень для продажу онлайн.</p>
+            <p class="price"><span>від</span> 55 000 ₴</p>
+            <p class="price-card__term">Строк: 5–8 тижнів</p>
+            <ul>
+              <li>Каталог і фільтри</li>
+              <li>Оплата та доставка</li>
+              <li>Особистий кабінет</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="contacts">
+      <div class="container contacts">
+        <div class="contacts__info">
+          <p class="eyebrow reveal">Напишіть мені</p>
+          <h2 class="reveal">Контакти</h2>
+          <p class="section__lead reveal">Розкажіть про задачу — відповім із пропозицією щодо формату, строків і бюджету.</p>
+
+          <ul class="contact-list reveal">
+            <li>
+              <span>Email</span>
+              <a href="mailto:maryanlepak122@gmail.com">maryanlepak122@gmail.com</a>
+            </li>
+            <li>
+              <span>Telegram</span>
+              <a href="@MaryanLep">@MaryanLep</a>
+            </li>
+          </ul>
+
+          <div class="socials reveal" aria-label="Соціальні мережі">
+            <a href="#" class="social" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h3l1-3h-4V10c0-.6.4-1 1-1Z"/></svg>
+            </a>
+            <a href="#" class="social" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Zm10 2H7a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm-5 3.2A3.8 3.8 0 1 1 8.2 12 3.8 3.8 0 0 1 12 8.2Zm0 2A1.8 1.8 0 1 0 13.8 12 1.8 1.8 0 0 0 12 10.2ZM17.4 6.6a1 1 0 1 1-1 1 1 1 0 0 1 1-1Z"/></svg>
+            </a>
+            <a href="#" class="social" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.5 9H4V20h2.5V9ZM5.2 4A1.6 1.6 0 1 0 5.2 7.2 1.6 1.6 0 0 0 5.2 4ZM20 20h-2.5v-5.6c0-1.6-.6-2.7-2-2.7s-1.8.9-2.1 1.8c-.1.3-.1.7-.1 1.1V20H11V9h2.4v1.5c.5-.9 1.7-2.2 4-2.2 2.9 0 4.6 1.9 4.6 5.9V20Z"/></svg>
+            </a>
+            <a href="#" class="social" aria-label="Telegram" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.6 4.2 3.8 10.6c-1.1.4-1.1 1.1-.2 1.4l4.3 1.3 1.7 5.2c.2.6.1.8.8.8.4 0 .6-.2.8-.4l2.5-2.4 4.8 3.5c.9.5 1.5.2 1.7-.8l3-14.2c.3-1.2-.4-1.8-1.6-1.4ZM8.9 13.3l8.8-5.5c.4-.3.8-.1.5.2l-7.1 6.4-.3 3.2-1.9-4.3Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <form class="form reveal" id="contact-form" novalidate>
+          <label>
+            Ім’я
+            <input type="text" name="name" autocomplete="name" required placeholder="Як до вас звертатися">
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" autocomplete="email" required placeholder="maryanlepak122@gmail.com">
+          </label>
+          <label>
+            Повідомлення
+            <textarea name="message" rows="5" required placeholder="Коротко про проєкт"></textarea>
+          </label>
+          <button class="btn btn--primary" type="submit">Відправити</button>
+          <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#hero" class="logo">
+        
+        <div class="logo_mein">
+          <img src="img/logo.png" alt="">
+        </div>
+      </a>
+      <p class="footer__copy">© 2025 Maryan Lepak</p>
+      <div class="socials socials--sm">
+        <a href="#" class="social" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H8v3h2v7h3v-7h3l1-3h-4V10c0-.6.4-1 1-1Z"/></svg>
+        </a>
+        <a href="#" class="social" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Zm10 2H7a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm-5 3.2A3.8 3.8 0 1 1 8.2 12 3.8 3.8 0 0 1 12 8.2Zm0 2A1.8 1.8 0 1 0 13.8 12 1.8 1.8 0 0 0 12 10.2ZM17.4 6.6a1 1 0 1 1-1 1 1 1 0 0 1 1-1Z"/></svg>
+        </a>
+        <a href="#" class="social" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.5 9H4V20h2.5V9ZM5.2 4A1.6 1.6 0 1 0 5.2 7.2 1.6 1.6 0 0 0 5.2 4ZM20 20h-2.5v-5.6c0-1.6-.6-2.7-2-2.7s-1.8.9-2.1 1.8c-.1.3-.1.7-.1 1.1V20H11V9h2.4v1.5c.5-.9 1.7-2.2 4-2.2 2.9 0 4.6 1.9 4.6 5.9V20Z"/></svg>
+        </a>
+        <a href="#" class="social" aria-label="Telegram" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.6 4.2 3.8 10.6c-1.1.4-1.1 1.1-.2 1.4l4.3 1.3 1.7 5.2c.2.6.1.8.8.8.4 0 .6-.2.8-.4l2.5-2.4 4.8 3.5c.9.5 1.5.2 1.7-.8l3-14.2c.3-1.2-.4-1.8-1.6-1.4ZM8.9 13.3l8.8-5.5c.4-.3.8-.1.5.2l-7.1 6.4-.3 3.2-1.9-4.3Z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- First modal: Detailed description -->
+  <div class="modal modal--details" id="details-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal__overlay" tabindex="-1" data-close-modal></div>
+    <div class="modal__container">
+      <button class="modal__close" aria-label="Закрити" data-close-modal>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="modal__content">
+        <p class="modal__label">УСЛУГА</p>
+        <h2 class="modal__title" id="modal-title"></h2>
+        <p class="modal__description" id="modal-description"></p>
+        <div class="modal__info">
+          <div class="modal__info-item">
+            <span class="modal__info-label">СРОК</span>
+            <span class="modal__info-value" id="modal-term"></span>
+          </div>
+          <div class="modal__info-item">
+            <span class="modal__info-label">ЦЕНА, ₴</span>
+            <span class="modal__info-value" id="modal-price"></span>
+          </div>
+        </div>
+        <div class="modal__features">
+          <h3>ЧТО ВХОДИТ</h3>
+          <ul id="modal-features"></ul>
+        </div>
+        <button class="btn btn--primary modal__cta" id="modal-discuss-btn">Обговорити проект</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second modal: Application form -->
+  <div class="modal modal--form" id="form-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal__overlay" tabindex="-1" data-close-modal></div>
+    <div class="modal__container">
+      <button class="modal__close" aria-label="Закрити" data-close-modal>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18 6 6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="modal__content">
+        <h2 class="modal__title">Обговорити проект</h2>
+        <form class="modal-form" id="modal-form" novalidate>
+          <label>
+            КАК ТЕБЯ ЗОВУТ
+            <input type="text" name="name" required placeholder="Ім'я">
+          </label>
+          <label>
+            TELEGRAM / ТЕЛЕФОН
+            <input type="text" name="telegram" required placeholder="@MaryanLep або номер телефону" value="@MaryanLep">
+          </label>
+          <label>
+            ТИП САЙТУ
+            <input type="text" name="website-type" id="form-website-type" readonly>
+          </label>
+          <label>
+            БЮДЖЕТ
+            <select name="budget" id="form-budget" required>
+              <option value="">Оберіть бюджет</option>
+              <option value="До 15 000 ₴">До 15 000 ₴</option>
+              <option value="15 000–30 000 ₴">15 000–30 000 ₴</option>
+              <option value="Понад 30 000 ₴">Понад 30 000 ₴</option>
+              <option value="other">Вкажу інше</option>
+            </select>
+          </label>
+          <label class="form__other-budget hidden" id="other-budget-label">
+            ВАШ БЮДЖЕТ
+            <input type="text" name="other-budget" id="form-other-budget" placeholder="Введіть ваш бюджет">
+          </label>
+          <label>
+            КОРОТКО О ЗАДАЧЕ
+            <textarea name="description" rows="4" required placeholder="Що за проект, строки, приклади..."></textarea>
+          </label>
+          <button class="btn btn--primary" type="submit">Відправити заявку</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
